@@ -1,0 +1,29 @@
+# Git安装
+- Windows：下载后双击安装
+- Linux： ctrl+alt+t 启动终端，安装Git；sudo su切换至管理员，密码：ddd123；输入命令apt -get install git（或者aptitude search git；aptitude show git；aptitude install git）
+- MacOS：下载后双击安装
+
+# Git基本使用
+- 创建仓库命令 git init（pwd；mkdir XXX；cd XXX；ll -a ./.git）
+- git add：向暂存区添加内容
+- git commit -m "message for desc(提交的信息)"：向仓库提交内容，一般注释信息是要求强制添加
+- git status：显示工作树；working tree clean表示三区一致
+- git rm XXX：删除暂存区
+- rm XXX：删除工作区
+- git log：查看日志
+
+# GitHub and Bitbuckets
+- GitHub：注册、创建项目/仓库，推送
+- bitbuckets：私有，使用方法类似
+	- 克隆习题课git仓库到本地：git clone https://Augsnano@bitbucket.org/Augsnano/e_tulingxueyuan.git
+
+
+
+
+
+
+
+
+
+
+

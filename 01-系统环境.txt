@@ -1,0 +1,56 @@
+# 操作系统
+- 管理软硬件资源，给运行软件提供一个统一调用平台
+- 操作系统分类
+	- Windows
+	- Unix
+		- Minix, Linus-Linux
+		- MacOS
+		- Ubantu 有自己的应用商店
+- 内存大于8G，尝试使用虚拟机，否则用Windows
+- 苹果系统
+- 虚拟机
+	- 虚拟的机器，软件模拟出来的系统环境
+	- 虚拟机版本 xubuntu16.04 LTS（16年4月长期稳定版本）
+	- 使用步骤：
+		- 下载打包好的虚拟环境，解压
+		- 解压后会得到一个vdi格式的文件
+		- 下载virtualbox，（常见的还有VMware）,网址：www.virtualbox.org
+			- 下载与目前系统对应的软件版本
+			- 安装完毕，载入虚拟操作系统
+			- 容易出现问题：
+				- 没有64为系统以供选择-打开bios虚拟化
+				- 打开后一直黑屏没反应：集成系统是64位的，但建立的是32位的系统
+			- 分配内存，4g足以满足pycharm
+			- 使用已有虚拟vdi文件
+
+
+- 自行安装
+	- 安装套件：anaconda + pycharm（jetbrain）
+	- 安装anaconda
+	- 安装pycharm
+
+
+
+# GIT - 起源
+- 个人文件的版本控制
+- 多方协作
+- lunus搞定的git
+- 2008年GitHub上线
+- 关于版本控制的产品
+	- 集中式：cvs，svn
+	- 分布式：GitHub开源，bitbuckets私人
+	- 分享精神：blog+GitHub（简历）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
