@@ -1,1 +1,1 @@
-learn python from Beijing Tulingxueyuan
+learn & practice python
