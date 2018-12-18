@@ -154,11 +154,9 @@ b_8 = Button(frame_bord, text='8', width=5, height=2, \
              command=lambda: change("8")).grid(row=1, column=1)
 b_9 = Button(frame_bord, text='9', width=5, height=2, \
              command=lambda: change("9")).grid(row=1, column=2)
+b_0 = Button(frame_bord, text='.', width=5, height=2, \
+             command=lambda: change(".")).grid(row=4, column=1)
 
-
-# b_jia = Button(frame_bord, text='+', width=5, height=2, \
-#                command=lambda: operation("+"))
-# b_jia.grid(row=2, column=0)
 
 frame_bord.pack(padx=10, pady=10)
 
