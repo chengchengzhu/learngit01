@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form表单</title>
+</head>
+<body>
+    <form action="http://goudan.com:5000/login" method="POST">
+
+        <!--标签定义文本标注；type=text 普通文本-->
+        <p>
+            <label>用户名：</label><input type="text" name="username" value="goudan">
+        </p>
+        <!--type = password 密码输入框-->
+        <p>
+            <label>密 码：</label><input type="password" name="password">
+        </p>
+        <!--type=radio 定义单选框-->
+        <p>
+            <label>性 别：</label>
+            <label><input type="radio" name="sex" value="1">男</label>
+            <label><input type="radio" name="sex" value="0">女</label>
+        </p>
+        <!--<textarea></textarea> 定义多行文本框-->
+        <p>
+            <label>说明：</label>
+            <textarea name="说明" id="" cols="30" rows="10"></textarea>
+        </p>
+        <!--  type=checkbox 定义复选框  -->
+        <p>
+            <label>爱好：</label>
+            <label><input type="checkbox" name="like" value="eat">吃饭</label>
+            <label><input type="checkbox" name="like" value="sleep">睡觉</label>
+        </p>
+        <!--<select></select> 定义下拉选框-->
+        <p>
+            <label>位置：</label>
+            <select name="city">
+                <option value="0">北京</option>
+                <option value="1">上海</option>
+                <option value="2">深圳</option>
+
+            </select>
+        </p>
+        <!--type=submit 定义提交按钮；type=reset 重置表单内容，回到初始状态-->
+        <p>
+            <!--<button>提交</button>  form表单中的button具有提交功能-->
+            <!--<input type="submit" name="注册">-->
+            <input type="image" name="" value="提交">
+            <input type="reset" name="" value="重置">
+        </p>
+
+    </form>
+
+    <!--
+    url:https://www.baidu.com/s?wd=zzz&rsv_spt=1&rsv_iqid=0x882df36c0005b171&issp=1&f=3&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=0&rsv_sug3=3&rsv_sug1=1&rsv_sug7=100&prefixsug=zzz&rsp=1&inputT=3810&rsv_sug4=3880
+    http:// 80端口
+    https:// 443端口
+    服务器地址：www.baidu.com + :80
+
+    /s : 文件路径
+    ?xxx : 参数
+    -->
+
+</body>
+</html>
