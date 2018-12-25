@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪元素</title>
+    <style type="text/css">
+        /*伪元素只用于向文本添加特殊样式，作用于块元素*/
+        /*p:first-letter{*/
+            /*color:red;*/
+        /*}*/
+        /*伪元素first-letter，first-line只能作用于块元素*/
+        /*span:first-letter{*/
+            /*color:red;*/
+        /*}*/
+        /*span{*/
+            /*color:blue;*/
+        /*}*/
+        /*用于向文本首行添加特殊样式，作用于块元素*/
+        p:first-line{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <!--行标签，用于对比-->
+        <!--<span>锄禾日当午，</span>-->
+        锄禾日当午，<br>
+        汗滴禾下土，<br>
+        谁知盘中餐，<br>
+        粒粒皆辛苦。
+    </p>
+</body>
+</html>

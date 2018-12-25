@@ -38,7 +38,7 @@ def delete():
 # 定义取反函数
 def inverse():
     # 先用get获取sv的值，然后转换为整形，再乘-1
-    inverse_value = int(sv.get()) * -1
+    inverse_value = float(sv.get()) * -1
     sv.set(inverse_value)
 
 # 定义清零函数
@@ -154,7 +154,7 @@ b_8 = Button(frame_bord, text='8', width=5, height=2, \
              command=lambda: change("8")).grid(row=1, column=1)
 b_9 = Button(frame_bord, text='9', width=5, height=2, \
              command=lambda: change("9")).grid(row=1, column=2)
-b_0 = Button(frame_bord, text='.', width=5, height=2, \
+b_d = Button(frame_bord, text='.', width=5, height=2, \
              command=lambda: change(".")).grid(row=4, column=1)
 
 

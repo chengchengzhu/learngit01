@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>batman</title>
+    <style type="text/css">
+        a{
+            /*去掉默认样式（a的下划线）*/
+            /*text-decoration:none;*/
+            /*默认添加下、上划线、贯穿线、闪烁*/
+            /*text-decoration: underline;*/
+            /*text-decoration: overline*/
+            /*text-decoration: line-through;*/
+            /*text-decoration: blink;*/
+
+        }
+        a:link{
+            color:pink;
+        }
+        /*组选择器*/
+        #m1,#h1{
+            display:none;
+        }
+        /*伪类选择器*/
+        /*a:active + img{*/
+            /*display:block;*/
+        /*}*/
+        /*#b1:hover + #m1{*/
+            /*display:block;*/
+        /*}*/
+        /*#z1:hover + #h1{*/
+            /*display:block;*/
+        /*}*/
+    /*匹配选择器，只要在同一级，都可以找得到*/
+         #b1:hover ~ #m1{
+             color:green;
+            display:block;
+        }
+        #z1:hover ~ #h1{
+            color:green;
+            display:block;
+        }
+        /*已访问的链接*/
+        a:visited{
+            color:#blue;
+        }
+    </style>
+</head>
+<body>
+    <a id="b1" href="">Batman</a>
+    <a id="z1" href="">zzh</a>
+    <img id="m1" src="./static/img/batman.jpg" alt="batman">
+    <img id="h1" src="./static/img/3.gif" alt="zzh">
+</body>
+</html>

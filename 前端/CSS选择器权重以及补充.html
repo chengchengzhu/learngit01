@@ -2,9 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CSS引入</title>
+    <!--嵌入式CSS-->
+    <style>
+        .a{
+            width: 80%;
+            height: 100px;
+            margin: 0 auto;
+            background-color: red;
+        }
+        p{
+            color:#fff;
+        }
+        span{
+            color: red;
+        }
+
+    </style>
+
+    <!--外部进入CSS-->
+    <link rel="stylesheet" type="text/css" href="./static/CSS/text_css.css">
 </head>
 <body>
-
+    <div class="a" id="a1" style="background-color: aqua">
+        <p>锄禾日党务，<span>汗滴禾</span>下土，水质哦按只能够惨，地接近</p>
+    </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
