@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*ul{*/
+    /*list-style: none;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*background-color: #87CEFA;*/
+    /*width:200px;*/
+    /*height: 150px;*/
+/*}*/
+
+/*li a{*/
+    /*text-decoration: none;*/
+    /*width: 200px;*/
+    /*display: block;*/
+/*}*/
+
+/*ul li{*/
+    /*line-height: 30px;*/
+/*}*/
+
+/*li a:hover{*/
+    /*background-color: slategray;*/
+/*}*/
+
+/*li a:active{*/
+    /*background-color: lawngreen;*/
+/*}*/
+
+
+/*水平导航栏*/
+ul{
+    list-style: none;
+    background-color: tan;
+    overflow: hidden;
+}
+
+ul li{
+    float: left;
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: pink;
+}
+
+.so{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+
+
+
+
+

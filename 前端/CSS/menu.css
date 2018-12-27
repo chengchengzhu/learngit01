@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.nav1{
+    width: 80%;
+    height: 700px;
+    background-color: pink;
+    margin:0 auto;
+}
+
+.nav2{
+    width: 80%;
+    height: 700px;
+    background-color: pink;
+    margin:0 auto;
+}
+
+.nav3{
+    width: 80%;
+    height: 700px;
+    background-color: greenyellow;
+    margin:0 auto;
+}
+
+.nav4{
+    width: 80%;
+    height: 700px;
+    background-color: gray;
+    margin:0 auto;
+}
+
+.nav5{
+    width: 80%;
+    height: 700px;
+    background-color: tan;
+    margin:0 auto;
+}
+
+/*去掉列表默认样式*/
+ul{
+    list-style: none;
+}
+
+ul li{
+    text-align: center;  /*设置文本居中显示*/
+    margin: 4px 0;
+    line-height: 40px; /*设置行高*/
+}
+
+ul li a{
+    display: block;
+    width: 50px;
+    height: 40px;
+    background-color: lawngreen;
+}
+
+/*定位到右侧顶部，相对窗口定位*/
+.menu{
+    position: fixed;
+    right: 20px;
+    top:80%;
+}
+
+.wx img{
+    display: none;
+}
+
+.wx:hover + img{
+    display: block;
+    position: fixed;
+    right: 6%;
+    top:65%;
+    width: 200px;
+    height: 200px;
+}
+
