@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>进度条</title>
+    <style type="text/css">
+        #out{
+            width: 400px;
+            height: 40px;
+            border: solid 1px red;
+            margin: 200px auto;
+        }
+        #ins{
+            width: 0px;
+            height: 40px;
+            background-color: green;
+            text-align: right;
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!--外部管道-->
+    <div id='out'>
+        <!--内部填充物-->
+        <div id="ins"></div>
+    </div>
+
+    <!--// js特效-->
+    <script type="text/javascript">
+
+        var out = document.getElementById('out');
+
+        var ins = document.getElementById('ins');
+
+        var step = 1;
+
+        var into = setInterval(function () {
+            // 获取宽度
+            var w = ins.offsetWidth;
+            // 获取添加后的宽度
+            var nw = w + step;
+            // 获取所占百分比
+            var bai = nw / out.offsetWidth;
+            // 显示已填充百分比
+            ins.innerHTML = Math.floor(bai*100)+'%';
+            // 宽度填充满之后关闭定时器
+            if (nw >= out.offsetWidth){
+                clearInterval(into);
+            }
+            // 改变层叠样式，增加宽度
+            ins.style.width = nw + 'px';
+        },50)
+
+    </script>
+</body>
+</html>

@@ -123,7 +123,6 @@ def pressCompute(func):
     else:
         if isPressDel != True:
             lists.append(num)
-            print(lists)
         lists.append(func)
         isPressFunc = True
         isPressDel = False  # 一旦出现四则运算，则之前删除指示重置为False

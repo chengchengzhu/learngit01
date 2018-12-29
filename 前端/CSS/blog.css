@@ -17,7 +17,7 @@ ul{
 
 /*单行菜单*/
 .daohang{
-    background-color: khaki;
+    /*background-color: khaki;*/
     width: 80%;
     height: 70px;
 }
@@ -33,14 +33,14 @@ ul{
 .middle{
     width: 80%;
     height: 1000px;
-    background-color: palegreen;
+    /*background-color: palegreen;*/
 }
 
 /*文章栏*/
 .txt{
     width: 70%;
     height: 980px;
-    background-color: pink;
+    /*background-color: pink;*/
     float: left;
     margin: 5px 3px;
 }
@@ -49,13 +49,13 @@ ul{
 .r_lan{
     width: 28%;
     height: 980px;
-    background-color: greenyellow;
+    /*background-color: greenyellow;*/
     float: right;
     margin: 5px 3px;
 }
 .txt ul li span{
     font-weight:bold;
-    color: cyan;
+    /*color: cyan;*/
 
     text-align: center;
 }
@@ -69,7 +69,7 @@ ul{
     width: 90%;
     height: 320px;
     margin: 0 auto;
-    background-color: slateblue;
+    /*background-color: slateblue;*/
     margin-top: 5px;
 }
 
@@ -83,7 +83,7 @@ ul{
     width: 90%;
     height: 320px;
     margin: 0 auto;
-    background-color: seagreen;
+    /*background-color: seagreen;*/
     margin-top: 5px;
 }
 .text-c ul li{
@@ -95,7 +95,7 @@ ul{
 .text-c ul li h2{
     line-height: 70px;
     text-align: center;
-    color: yellow;
+    /*color: yellow;*/
 }
 
 /*阅读排行*/
@@ -103,32 +103,42 @@ ul{
     width: 90%;
     height: 320px;
     margin: 0 auto;
-    background-color: pink;
+    /*background-color: pink;*/
     margin-top: 5px;
 }
 .top ul li{
     line-height: 70px;
     text-align: center;
-    color: yellow;
+    /*color: yellow;*/
 }
 .top ul li a{
     font-size: 20px;
     font-weight: bold;
-    color: salmon;
+    /*color: salmon;*/
 }
 
 /*底部*/
 .bt{
     width: 80%;
     height: 150px;
-    background-color: cyan;
+    /*background-color: cyan;*/
 }
 
+.bt ul li{
+    width:100%;
+    height:50px;
+    margin:0 auto;
+    text-align: center;
+}
 
+.bt ul li a{
+    /*display: inline-block;*/
+    line-height: 50px;
+}
 
-
-
-
+.bt ul li span{
+    line-height: 50px;
+}
 
 
 
