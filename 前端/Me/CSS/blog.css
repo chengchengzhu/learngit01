@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: cyan;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin:0 10px ;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "微软雅黑 Light";
+    color: blue;
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+
+.mid{
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    /*background-color: palegreen;*/
+}
+
+.txt{
+    width: 70%;
+    float: left;
+    display: inline-block;
+}
+
+.txt ul{
+    list-style: none;
+}
+
+.txt li{
+    padding:20px 0
+}
+
+.txt p span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.txt_right{
+    width: 20%;
+    float: right;
+    display: inline-block;
+}
+
+.txt_right ul li{
+    list-style: none;
+    line-height: 30px;
+}
+
+.user_name{
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.classify{
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.top{
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.bt {
+    width: 80%;
+    margin: 0 auto;
+    background-color: pink;
+    text-align: center;
+}
+
+.bt ul li{
+    line-height: 50px;
+    list-style: none;
+}
+
+.bt ul li a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+

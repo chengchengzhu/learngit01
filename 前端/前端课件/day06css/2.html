@@ -7,14 +7,18 @@
         
         .wrap{
             border:1px solid red;
+            background-color: pink;
             /*清除浮动 解决父级元素高度无法撑开问题
                 注意: 是给浮动元素的父级添加
             */
             /*overflow: hidden;*/
+            // 1、当父元素设置了高度时，用于隐藏超出边界的浮动子元素
+            // 2、当父元素高度未设置，或者height:auto时，使用overflow：hidden清除浮动
         }
         .cl{
             /*clear:both;*/
         }
+        // 因为清除浮动需要在浮动元素后面,此处使用after
         .wrap:after{
             content:'';
             display:block;
@@ -80,6 +84,7 @@
         <div class="box7">7</div>
         <div class="cl"></div>
     </div>
+
 
 </body>
 </html>

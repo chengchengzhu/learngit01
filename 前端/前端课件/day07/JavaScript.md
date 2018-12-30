@@ -4,7 +4,7 @@
 
 学习前端脚本语言javascript的基本概念、页面引入方式、获取页面元素及操作元素属性的技巧，学习函数的基本定义方法和使用方法。
 
-### 前段三大块
+### 前端三大块
 
 ```
 HTML css JavaScript
@@ -12,7 +12,7 @@ HTML css JavaScript
 
 ### 什么是JavaScript？
 
-JavaScript是运行在浏览器端的脚步语言，JavaScript主要解决的是前端与用户交互的问题，包括使用交互与数据交互。JavaScript是浏览器解释执行的
+JavaScript是运行在浏览器端的脚本语言，JavaScript主要解决的是前端与用户交互的问题，包括使用交互与数据交互。JavaScript是浏览器解释执行的
 
 ```
 1. JavaScript 是一种客户端脚本语言（脚本语言是一种轻量级的编程语言）。 

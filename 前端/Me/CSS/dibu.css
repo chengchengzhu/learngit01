@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+div{
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blo1{
+    background-color: red;
+}
+.blo2{
+    background-color: pink;
+}
+.blo3{
+    background-color: blue;
+}
+.blo4{
+    background-color: black;
+}
+.blo5{
+    background-color: cyan;
+}
+
+
+ul{
+    list-style: none;
+    position: fixed;
+    right: 20px;
+    top: 80%;
+}
+
+ul li a{
+    background-color: #c9e2b3;
+    display: block;
+    padding: 8px;
+    margin: 3px;
+}
+
+ul li a{
+    align: center;
+}
+
+.wx img{
+    display: none;
+}
+
+.wx:hover img{
+    display: block;
+    position: fixed;
+    right: 4%;
+    top:75%;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

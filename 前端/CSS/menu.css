@@ -67,12 +67,11 @@ ul li a{
     display: none;
 }
 
-.wx:hover + img{
+.wx:hover img{
     display: block;
     position: fixed;
     right: 6%;
-    top:65%;
-    width: 200px;
-    height: 200px;
+    top:10%;
+    width: 20px;
 }
 

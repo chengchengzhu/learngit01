@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动</title>
+    <style>
+
+        .wrap{
+            border:1px solid red;
+            background-color: pink;
+            /*清除浮动 解决父级元素高度无法撑开问题
+                注意: 是给浮动元素的父级添加
+            */
+            /*overflow: hidden;*/
+            // 1、当父元素设置了高度时，用于隐藏超出边界的浮动子元素
+            // 2、当父元素高度未设置，或者height:auto时，使用overflow：hidden清除浮动
+        }
+        /*.cl{*/
+            /*clear:both;*/
+        /*}*/
+        /*.wrap:after{*/
+            /*content:'';*/
+            /*display:block;*/
+            /*clear:both;*/
+        /*}*/
+        .box1{
+            margin-top: 100px;
+            width: 200px;
+            height: 200px;
+            /*float:left;*/
+            background: #222;
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            /*float:left;*/
+            background: #909;
+        }
+        .box3{
+            width: 200px;
+            height: 200px;
+            /*float:left;*/
+            background: #090;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <!--<div class="box3">3</div>-->
+
+    </div>
+    <!--<div class="cl"></div>-->
+
+</body>
+</html>
