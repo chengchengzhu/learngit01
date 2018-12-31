@@ -68,7 +68,7 @@ if(arr.constructor==Array){
 //对象的实例创建
 var aList = new Array(1,2,3);
 
-//直接量创建
+//直接创建
 var aList2 = [1,2,3,'asd'];
 
 ```

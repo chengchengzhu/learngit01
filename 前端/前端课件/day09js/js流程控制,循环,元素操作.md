@@ -142,7 +142,7 @@ for(i in a){
 
 > 标签对象.innerHTML="内容"；//在标签对象内放置指定内容
 >
-> 获取一般用 innerText
+> 获取文本一般用 innerText
 
 ## 表单中值的操作
 

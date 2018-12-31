@@ -24,21 +24,21 @@
         oDiv.style.fontSize="30px";
         // 注意在设置样式的时候,如果有些属性是双拼词 font-size 要把中横岗去掉  第二个单词首字母大写
 
-        //通过jss获取元素的样式 只能获取行间样式
-        console.log(oDiv.style.width);
+        //通过js获取元素的样式 只能获取行间样式
+        console.log(oDiv.style.height);
 
         // js 操作元素的文本内容
             // innerHTML 一般用来设置内容 可以解析标签 获取内容时会连同标签一起获取
             // innerText 一般只用来获取内容 解析不了标签 只能获取文本不能获取标签
             // 注意会覆盖原来的内容
             oDiv.innerHTML='<h1>444</h1>';
-            //oDiv.innerText='<h1>444</h1>';
+            // oDiv.innerText='<h1>444</h1>';
         // innerHTML 获取元素中的内容
             console.log(oDiv.innerHTML);
             console.log(oDiv.innerText);
 
         // 表单值的操作
-            // 通过id获取变淡元素对象
+            // 通过id获取表单元素对象
                 Vl=document.getElementById('uname');
                 console.log(Vl);
             // 获取表单的值 格式: 元素对象.value

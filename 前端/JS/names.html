@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点名器</title>
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #box{
+            width: 500px;
+            height: 300px;
+            background-color: pink;
+            position: fixed;
+            left: 35%;
+            top: 30%;
+        }
+        #name{
+            width: 350px;
+            height: 200px;
+            background-color: yellowgreen;
+            text-align: center;
+            margin: 20px auto;
+            font-size: 100px;
+            line-height: 200px;
+        }
+        #start{
+            width: 80px;
+            height: 30px;
+            margin-left: 110px;
+            front-size: 15px;
+        }
+        #stop{
+            width: 80px;
+            height: 30px;
+            margin-left: 110px;
+            front-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="box">
+        <div id="name"></div>
+        <button id="start">START</button>
+        <button id="stop">STOP</button>
+    </div>
+
+    <script type="text/javascript">
+        var names = document.getElementById('name');
+        var starts = document.getElementById('start');
+        var stops = document.getElementById('stop');
+
+        var into;
+        // START按钮的点击事件
+
+        starts.onclick = function () {
+            // 判断是否已经点击开始按钮
+            if(into != null) return;
+            into = setInterval(function () {
+                var nm = ['程普','黄盖','韩当','于禁','李典','张郃'];
+                // 通过随机函数生成的随机数作为索引下标，随即从数组中取值写入页面
+                names.innerHTML = nm[rand(0,nm.length-1)];
+            },100)
+        }
+
+        // STOP按钮的点击事件
+        stops.onclick = function () {
+            clearInterval(into);
+            into = null;
+
+        }
+
+        // 随机数函数
+        function rand(x,y) {
+            return Math.floor(Math.random()*(y-x)+x)
+        }
+    </script>
+
+</body>
+</html>
